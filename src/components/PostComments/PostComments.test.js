@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import Post from "../components/Post";
+import Post from "../PostComments/index";
 
 it("should add two comments to the list", () => {
   render(<Post />);
